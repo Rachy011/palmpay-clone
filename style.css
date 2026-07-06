@@ -38,35 +38,53 @@
 .nav-right {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 100px;
 }
 
-.login-btn {
-  background-color: rgb(109, 70, 219);
+#log button {
+   display: inline-block;
+   background-color: rgb(109, 70, 219);
+   /* padding: 2px 35px 2px 35px ; */
+   padding: 10px 0px;
   color: white;
-  border: none;
-  padding: 8px 18px;
+   border: none;
   border-radius: 15px;
   font-weight: 600;
+  width: 350%;
+  font-size: 90%;
+ 
 }
-
 .country button {
   background-color: rgb(251, 247, 255);
   color: black;
   border: none;
   border-radius: 20px;
   align-items: left;
-  padding: 10px 99px 10px 29px;
+  /* padding: 10px 59px 10px 29px; */
+   padding: 10px 0px;
+   width: 350%;
 
 }
 
 .country img {
   width: 25px;
 }
+/* .drop-down {
+  display:none ;
+  position: absolute;
+  background-color: gainsboro;
+  margin-top: 30px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.02);
+  z-index: 1;
+  border-radius: 10px;
+}
+.drop-down{
 
-
-
-
+}
+.drop-down a:hover{
+  background-color: gainsboro;
+} 
 
 /* hero-section */
 .hero-section {
@@ -77,7 +95,7 @@
 }
 
 .hero-texts {
-  padding: 120px 0px 0px 55px;
+  padding: 100px 0px 0px 55px;
 }
 
 .hero-text span {
@@ -680,11 +698,16 @@ p {
 }
 
 /* google-app */
-.google-app img {
+.google-app {
+  display: flex;
+  gap: 60px;
   padding: 0px 0px 50px 430px;
-
 }
+  /* google-app  */
+ .google-app img {
+  width: 150px;
 
+} 
 /* Phone-Download */
 .Phone-Download {
   display: flex;
@@ -878,9 +901,9 @@ p {
 }
 
 .last-footer {
-  border-top: 1px solid rgb(83, 79, 79);
+  border-top: 1px solid rgb(83, 79, 79) ;
   ;
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
 }
 
 #line {
@@ -939,12 +962,6 @@ p {
     width: 20px;
   }
 /* hero-section */
-  .hero-section {
-    background: url(images/imgi_32_Backgrounded7fa1f5-08f5-45.png);
-    background-size: cover;
-    background-position: center;
-    padding-bottom: -15px;
-  }
     .Text-image{
       display: flex;
       flex-direction: column;
@@ -1035,7 +1052,7 @@ p {
   width: 330px;
   height: 400px;
   object-fit: cover;
-  padding: 30px 0px 0px 60px;
+  padding: 30px 0px 0px 30px;
 }
 
 .down-image {
@@ -1045,8 +1062,8 @@ p {
 }
 
 .down-image img {
-  padding: 18px 110px 0px 0px;
-  width: 450px;
+  padding: 12px 0px 0px 10px;
+  width: 300px;
 
 }
 
@@ -1551,10 +1568,11 @@ p{
   color: #000;
 }
  /* google-app  */
-/* .google-app img {
-  padding: 0px 0px 50px 430px;
-
-} */
+ .google-app  {
+  display: flex;
+  gap: 10px;
+  padding: 0px 0px 50px 20px;
+} 
 
 /* Phone-Download */
 .Phone-Download {
@@ -1639,8 +1657,7 @@ p{
 }
 
 .footer-grid {
-  /* max-width: 1200px; */
-  /* margin: 0 auto; */
+
   display: flex;
   flex-direction: column;
   gap: rem;
