@@ -37,6 +37,7 @@
 
 .nav-right {
   display: flex;
+  gap: 110px !important;
   align-items: center;
   gap: 100px;
 }
@@ -160,9 +161,9 @@
 }
 
 .NDIC img {
-  width: 70px;
+  width: 60px;
   height: 50px;
-  object-fit: cover;
+  /* object-fit: cover; */
   border-radius: 5px;
 }
 
